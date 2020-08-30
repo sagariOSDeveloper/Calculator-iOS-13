@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1351124824FBB94900DB1E81 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351124724FBB94900DB1E81 /* CalculatorLogic.swift */; };
 		1379787924F37F8D0029D32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379787824F37F8D0029D32D /* AppDelegate.swift */; };
 		1379787B24F37F8D0029D32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379787A24F37F8D0029D32D /* SceneDelegate.swift */; };
 		1379787D24F37F8D0029D32D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379787C24F37F8D0029D32D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1351124724FBB94900DB1E81 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		1379787524F37F8D0029D32D /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1379787824F37F8D0029D32D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1379787A24F37F8D0029D32D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1351124924FBBA4800DB1E81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1351124724FBB94900DB1E81 /* CalculatorLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1351124A24FBBA5100DB1E81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1379787C24F37F8D0029D32D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1351124B24FBBA5A00DB1E81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1379787E24F37F8D0029D32D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1379786C24F37F8D0029D32D = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +84,9 @@
 			children = (
 				1379787824F37F8D0029D32D /* AppDelegate.swift */,
 				1379787A24F37F8D0029D32D /* SceneDelegate.swift */,
-				1379787C24F37F8D0029D32D /* ViewController.swift */,
-				1379787E24F37F8D0029D32D /* Main.storyboard */,
+				1351124924FBBA4800DB1E81 /* Model */,
+				1351124A24FBBA5100DB1E81 /* Controller */,
+				1351124B24FBBA5A00DB1E81 /* View */,
 				1379788124F37F920029D32D /* Assets.xcassets */,
 				1379788324F37F920029D32D /* LaunchScreen.storyboard */,
 				1379788624F37F920029D32D /* Info.plist */,
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1351124824FBB94900DB1E81 /* CalculatorLogic.swift in Sources */,
 				1379787D24F37F8D0029D32D /* ViewController.swift in Sources */,
 				1379787924F37F8D0029D32D /* AppDelegate.swift in Sources */,
 				1379787B24F37F8D0029D32D /* SceneDelegate.swift in Sources */,
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U42264JWC;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U42264JWC;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
